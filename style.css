@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.s-us {
+    margin-left: 150px;
+    padding-top: 179px;
+    margin-bottom: 174px;
+}
+
+.s-us h2 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #3E3E3E;
+}
+
+.message {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2D2D2D;
+    padding-left: 46px;
+    width: 557px;
+    height: 189px;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    padding-top: 31px;
+}
+
+input {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2D2D2D;
+    width: 557px;
+    height: 93px;
+    padding-left: 46px;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.button {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding: 28px 52px;
+    border: none;
+    border-radius: 500px;
+    background-color: #FAD34F;
+    margin-top: 23px;
+}
+
+.s-map {
+
+}
+
+.map {
+    background-image: url(img/map.jpg);
+    background-repeat: no-repeat;
+    width: 976px;
+    height: 976px;
+    margin-left: 104px;
+    border-radius: 100%;
+    margin-top: -200px;
+}
+
+main {
+    display: flex;
+}
+
+.s-svg {
+    margin-left: 343px;
+    margin-bottom: 104px;
+    height: 200px;
+}
+
+svg {
+    width: 12px;
+    height: 14px;
+    margin-right: 25px;
+}
+
+use {
+
+}
+
+main {
+    position: absolute;
+    background-image: url(img/main.jpg);
+    background-repeat: no-repeat;
+}
+
+footer {
+    background-image: url(img/footer.jpg);
+    background-repeat: no-repeat;
+}
