@@ -2,6 +2,42 @@
     box-sizing: border-box;
     margin-left: 0;
     margin-right: 0;
+    overflow-x: hidden;
+}
+
+main {
+    background-image: url(img/Cloud.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.cartoon-y-2 {
+    position: absolute;
+    width: 88px;
+    height: 85px;
+    transform: rotate(-35deg);
+    fill: #FFFFFF;
+    top: 23px;
+    left: 29px;
+}
+
+.cartoon-y-1 {
+    position: absolute;
+    width: 127px;
+    height: 127px;
+    top: 516px;
+    left: 863px;
+    z-index: 2;
+}
+
+.pink-cartoon {
+    position: absolute;
+    width: 214px;
+    height: 208px;
+    transform: rotate(-37deg);
+    top: 558px;
+    left: 862px;
+    z-index: 1;
 }
 
 .s-us {
@@ -30,6 +66,10 @@
     padding-top: 31px;
 }
 
+textarea {
+    resize: none;
+}
+
 input {
     font-weight: 400;
     font-size: 18px;
@@ -53,30 +93,36 @@ input {
     border-radius: 500px;
     background-color: #FAD34F;
     margin-top: 23px;
+    cursor: pointer;
 }
 
 .s-map {
-
+    position: relative;
+    margin-left: auto;
 }
 
 .map {
+    position: relative;
     background-image: url(img/map.jpg);
     background-repeat: no-repeat;
+    margin-right: -350px;
+    margin-top: -52px;
     width: 976px;
     height: 976px;
-    margin-left: 104px;
     border-radius: 100%;
-    margin-top: -200px;
+
 }
 
-main {
-    display: flex;
+footer {
+    background-color: #FAFAFA;
+    border: 1px solid #D8D8D8;
+    width: auto;
 }
 
 .s-svg {
     margin-left: 343px;
     margin-bottom: 104px;
-    height: 200px;
+    margin-top: 79px;
 }
 
 svg {
@@ -85,17 +131,26 @@ svg {
     margin-right: 25px;
 }
 
-use {
-
-}
-
-main {
+.pink-cartoon-f {
     position: absolute;
-    background-image: url(img/main.jpg);
-    background-repeat: no-repeat;
+    width: 214px;
+    height: 208px;
+    left: 15px;
 }
 
-footer {
-    background-image: url(img/footer.jpg);
-    background-repeat: no-repeat;
+.cartoon-y-2-f {
+    position: absolute;
+    width: 88px;
+    height: 85px;
+    top: 1023px;
+    left: 1436px;
 }
+
+.green-cartoon {
+    position: absolute;
+    width: 78px;
+    height: 97px;
+    top: 972px;
+    left: 1334px;
+}
+
